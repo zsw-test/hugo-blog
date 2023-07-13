@@ -5,4 +5,4 @@ draft: false
 tags: ["技术"]
 ---
 # 测试blog
-helloword！
+helloword！这是测试CI流程
