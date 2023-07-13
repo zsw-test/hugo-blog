@@ -28,7 +28,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         # if: github.ref == 'refs/heads/main'
         with:
-          personal_token: ${{ secrets.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 }} #在这里需要特别说明一下， hugo官网的例子用的是github_token，然而实操时才发现github_token不支持外部库，我们采用的两个仓库的方案不能使用github_token。 Github Action除了github_token之外，还支持deploy_token和personal_token。出于方便考虑，我选择了personal_token
+          personal_token: ${{ secrets.PERSONAL_TOKEN }} #在这里需要特别说明一下， hugo官网的例子用的是github_token，然而实操时才发现github_token不支持外部库，我们采用的两个仓库的方案不能使用github_token。 Github Action除了github_token之外，还支持deploy_token和personal_token。出于方便考虑，我选择了personal_token
           EXTERNAL_REPOSITORY: zsw-test/zsw-test.github.io # page仓库
           publish_dir: ./public
           publish_branch: master
