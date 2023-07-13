@@ -32,5 +32,6 @@ jobs:
           EXTERNAL_REPOSITORY: zsw-test/zsw-test.github.io # page仓库
           publish_dir: ./public
           publish_branch: master
+          commit_message: ${{ github.event.head_commit.message }}
           # 如果使用自定义域名，还需要添加下面一行配置
           # cname: www.goodfun.me
