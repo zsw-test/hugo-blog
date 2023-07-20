@@ -2,6 +2,8 @@
 title: "ES multi_match+minimum_should_match用法"
 date: 2023-07-20T20:23:52+08:00
 draft: false
+tags:
+  - "es"
 ---
 ## ES multi_match+minimum_should_match用法
 minimum_should_match的用法不多赘述，官网有，什么 3<90% 之类的。
