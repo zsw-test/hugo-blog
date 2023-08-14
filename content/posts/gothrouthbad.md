@@ -3,7 +3,7 @@ title: "Gothrouthbad"
 date: 2023-08-14T10:37:54+08:00
 draft: false
 tags:
-	- "读后感"
+ - "读后感"
 ---
 
 # 如何克服对大脑不利的7个习惯
