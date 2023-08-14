@@ -1,5 +1,5 @@
 ---
-title: "Gothrouthbad"
+title: "克服对大脑不利的7个习惯"
 date: 2023-08-14T10:37:54+08:00
 draft: false
 tags:
